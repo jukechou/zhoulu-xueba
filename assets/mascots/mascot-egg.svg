@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <defs>
+    <radialGradient id="e-body" cx="42%" cy="34%" r="70%">
+      <stop offset="0%" stop-color="#4A4A58"/>
+      <stop offset="100%" stop-color="#23232B"/>
+    </radialGradient>
+  </defs>
+  <!-- 蛋身 -->
+  <ellipse cx="110" cy="120" rx="62" ry="72" fill="url(#e-body)"/>
+  <!-- 高光 -->
+  <ellipse cx="84" cy="82" rx="18" ry="26" fill="#fff" opacity="0.22" transform="rotate(-18 84 82)"/>
+  <!-- 眼睛 -->
+  <ellipse cx="90" cy="118" rx="13" ry="15" fill="#fff"/>
+  <ellipse cx="130" cy="118" rx="13" ry="15" fill="#fff"/>
+  <circle cx="93" cy="114" r="5.5" fill="#1A1A1F"/>
+  <circle cx="127" cy="114" r="5.5" fill="#1A1A1F"/>
+  <circle cx="96" cy="111" r="2" fill="#fff"/>
+  <circle cx="130" cy="111" r="2" fill="#fff"/>
+  <!-- 腮红 -->
+  <ellipse cx="76" cy="136" rx="8" ry="5" fill="#FF8FA3" opacity="0.8"/>
+  <ellipse cx="144" cy="136" rx="8" ry="5" fill="#FF8FA3" opacity="0.8"/>
+  <!-- 嘴 -->
+  <path d="M104 138 Q 110 145 116 138" stroke="#FF9DAD" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 星星发饰 -->
+  <path d="M110 64 l 6 12 l 13 2 l -9 9 l 2 13 l -12 -6 l -12 6 l 2 -13 l -9 -9 l 13 -2 Z" fill="#FFD166"/>
+  <!-- 小手（右挥手） -->
+  <circle cx="176" cy="108" r="10" fill="#23232B"/>
+  <path d="M172 118 C 172 130 168 138 158 140" stroke="#23232B" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <!-- 小手（左拿铅笔） -->
+  <circle cx="44" cy="112" r="10" fill="#23232B"/>
+  <path d="M48 122 C 48 132 52 138 60 141" stroke="#23232B" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <!-- 铅笔 -->
+  <g transform="rotate(24 64 148)">
+    <rect x="56" y="148" width="26" height="9" rx="2" fill="#FFD166"/>
+    <polygon points="82,146 96,152.5 82,159" fill="#F5B64B"/>
+    <polygon points="96,150.5 102,152.5 96,154.5" fill="#E8A0B4"/>
+  </g>
+  <!-- 小脚 -->
+  <ellipse cx="96" cy="190" rx="11" ry="7" fill="#FFA24B"/>
+  <ellipse cx="124" cy="190" rx="11" ry="7" fill="#FFA24B"/>
+</svg>

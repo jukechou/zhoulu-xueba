@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <defs>
+    <radialGradient id="l-skin" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#FFF6EA"/>
+      <stop offset="100%" stop-color="#FFE1C2"/>
+    </radialGradient>
+  </defs>
+  <!-- 斗篷 -->
+  <path d="M70 128 C 60 156 62 186 80 200 L 140 200 C 158 186 160 156 150 128 Z" fill="#2E9E6B" opacity="0.85"/>
+  <!-- 头 -->
+  <circle cx="110" cy="104" r="42" fill="url(#l-skin)"/>
+  <!-- 金发 -->
+  <path d="M70 106 C 68 80 84 66 108 62 L 108 60 C 104 58 102 54 104 50 C 106 46 112 46 116 50 C 118 54 116 58 112 60 L 112 62 C 136 66 152 80 150 106 C 144 94 136 90 128 93 C 124 86 116 82 110 84 C 104 82 96 86 92 93 C 84 90 76 94 70 106 Z" fill="#F2C94C"/>
+  <!-- 眼睛（蓝） -->
+  <ellipse cx="94" cy="108" rx="7" ry="8.5" fill="#3E7BBF"/>
+  <ellipse cx="126" cy="108" rx="7" ry="8.5" fill="#3E7BBF"/>
+  <circle cx="96" cy="105" r="2.4" fill="#fff"/>
+  <circle cx="128" cy="105" r="2.4" fill="#fff"/>
+  <circle cx="91" cy="112" r="1.2" fill="#fff"/>
+  <circle cx="123" cy="112" r="1.2" fill="#fff"/>
+  <!-- 眉毛 -->
+  <path d="M85 96 Q 93 92 101 95 M119 95 Q 127 92 135 96" stroke="#8A6D2F" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- 腮红 -->
+  <ellipse cx="84" cy="118" rx="6.5" ry="3.8" fill="#FFB3C1" opacity="0.7"/>
+  <ellipse cx="136" cy="118" rx="6.5" ry="3.8" fill="#FFB3C1" opacity="0.7"/>
+  <!-- 嘴 -->
+  <path d="M105 120 Q 110 125 115 120" stroke="#C96A5B" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <!-- 绿色尖帽 -->
+  <path d="M76 78 C 74 52 92 34 110 30 C 128 34 146 52 144 78 C 138 66 130 60 122 62 L 98 62 C 90 60 82 66 76 78 Z" fill="#2E9E6B"/>
+  <path d="M110 30 C 108 22 106 14 116 6" stroke="#2E9E6B" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- 帽檐 -->
+  <path d="M74 78 Q 110 86 146 78 L 146 72 Q 110 80 74 72 Z" fill="#E8A33D"/>
+  <!-- 身体（绿衣） -->
+  <path d="M78 142 C 78 174 90 196 110 200 C 130 196 142 174 142 142 L 128 140 L 92 140 Z" fill="#3DBB80"/>
+  <!-- 领口 -->
+  <path d="M98 140 Q 110 152 122 140" fill="#fff"/>
+  <!-- 腰带 -->
+  <rect x="88" y="180" width="44" height="9" rx="4.5" fill="#8A5A2B"/>
+  <rect x="106" y="178" width="8" height="13" rx="3" fill="#F5B64B"/>
+  <!-- 盾牌（左臂） -->
+  <path d="M60 158 L 74 150 L 88 158 L 84 176 L 74 184 L 64 176 Z" fill="#3E7BBF" stroke="#F5B64B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M74 158 l 0 18 M66 163 l 16 9 M82 163 l -16 9" stroke="#fff" stroke-width="2" opacity="0.8" fill="none"/>
+  <!-- 右臂握剑 -->
+  <path d="M140 150 C 152 156 160 162 163 170" stroke="#FFE1C2" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <!-- 剑 -->
+  <g transform="rotate(-35 156 164)">
+    <rect x="152" y="132" width="7" height="62" rx="3" fill="#E8EEF4"/>
+    <rect x="152" y="132" width="3.5" height="62" fill="#fff"/>
+    <rect x="146" y="126" width="19" height="8" rx="2" fill="#F5B64B"/>
+    <ellipse cx="157.5" cy="122" rx="4" ry="2.4" fill="#FFD166"/>
+  </g>
+  <!-- 腿 -->
+  <path d="M98 198 C 96 206 92 210 86 212 L 86 218 M122 198 C 124 206 128 210 134 212 L 134 218" stroke="#FFE1C2" stroke-width="11" stroke-linecap="round" fill="none"/>
+  <ellipse cx="84" cy="216" rx="11" ry="5" fill="#8A5A2B"/>
+  <ellipse cx="136" cy="216" rx="11" ry="5" fill="#8A5A2B"/>
+</svg>
